@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <title>Golden Triangle Test Page</title>
+        <script data-main='js/main' src='js/libs/require-min.js'></script>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    </head>
+    <body>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-lg-9'>
+                    <h3>
+                        Settings
+                    </h3>
+                    <hr>
+                    <div class='row'>
+                        <div class='col-lg-2'>
+                            <p>
+                                Good
+                            </p>
+                        </div>
+                        <div class='col-lg-10'>
+                            <label class='radio-inline'><input type='radio' value='1' name='good'>1</label>
+                            <label class='radio-inline'><input type='radio' value='2' name='good'>2</label>
+                            <label class='radio-inline'><input type='radio' value='3' name='good'>3</label>
+                            <label class='radio-inline'><input type='radio' value='4' name='good'>4</label>
+                            <label class='radio-inline'><input type='radio' value='5' name='good'>5</label>
+                            <label class='radio-inline'><input type='radio' value='6' name='good'>6</label>
+                            <label class='radio-inline'><input type='radio' value='7' name='good'>7</label>
+                            <label class='radio-inline'><input type='radio' value='8' name='good'>8</label>
+                            <label class='radio-inline'><input type='radio' value='9' name='good'>9</label>
+                            <label class='radio-inline'><input type='radio' value='10' name='good' checked>10</label>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-lg-2'>
+                            <p>
+                                Fast
+                            </p>
+                        </div>
+                        <div class='col-lg-10'>
+                            <label class='radio-inline'><input type='radio' value='1' name='fast'>1</label>
+                            <label class='radio-inline'><input type='radio' value='2' name='fast'>2</label>
+                            <label class='radio-inline'><input type='radio' value='3' name='fast'>3</label>
+                            <label class='radio-inline'><input type='radio' value='4' name='fast'>4</label>
+                            <label class='radio-inline'><input type='radio' value='5' name='fast'>5</label>
+                            <label class='radio-inline'><input type='radio' value='6' name='fast'>6</label>
+                            <label class='radio-inline'><input type='radio' value='7' name='fast'>7</label>
+                            <label class='radio-inline'><input type='radio' value='8' name='fast'>8</label>
+                            <label class='radio-inline'><input type='radio' value='9' name='fast'>9</label>
+                            <label class='radio-inline'><input type='radio' value='10' name='fast' checked>10</label>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-lg-2'>
+                            <p>
+                                Cheap
+                            </p>
+                        </div>
+                        <div class='col-lg-10'>
+                            <label class='radio-inline'><input type='radio' value='1' name='cheap'>1</label>
+                            <label class='radio-inline'><input type='radio' value='2' name='cheap'>2</label>
+                            <label class='radio-inline'><input type='radio' value='3' name='cheap'>3</label>
+                            <label class='radio-inline'><input type='radio' value='4' name='cheap'>4</label>
+                            <label class='radio-inline'><input type='radio' value='5' name='cheap'>5</label>
+                            <label class='radio-inline'><input type='radio' value='6' name='cheap'>6</label>
+                            <label class='radio-inline'><input type='radio' value='7' name='cheap'>7</label>
+                            <label class='radio-inline'><input type='radio' value='8' name='cheap'>8</label>
+                            <label class='radio-inline'><input type='radio' value='9' name='cheap'>9</label>
+                            <label class='radio-inline'><input type='radio' value='10' name='cheap' checked>10</label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class='row'>
+                        <div class='col-lg-2'>
+                            <p>
+                                Show Circle
+                            </p>
+                        </div>
+                        <div class='col-lg-10'>
+                            <label><input id='show_circle' type='checkbox' checked></label>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-lg-2'>
+                            <p>
+                                Show Axes
+                            </p>
+                        </div>
+                        <div class='col-lg-1'>
+                            <label><input id='show_axes' type='checkbox' checked></label>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class='row'>
+                        <div class='col-lg-2'>
+                            <p>
+                                Size
+                            </p>
+                        </div>
+                        <div class='col-lg-5'>
+                            <input id='size' type='number' value='200'>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class='row'>
+                        <div class='col-lg-2'>
+                            <p>
+                                Fill Color
+                            </p>
+                        </div>
+                        <div class='col-lg-5'>
+                            <input id='fill_color' type='color' value='#BC243C'>
+                        </div>
+                    </div>
+                    <br>
+                    <div class='row'>
+                        <div class='col-lg-2'>
+                            <p>
+                                Circle Color
+                            </p>
+                        </div>
+                        <div class='col-lg-5'>
+                            <input id='circle_color' type='color' value='#BC243C'>
+                        </div>
+                    </div>
+                    <br>
+                    <div class='row'>
+                        <div class='col-lg-2'>
+                            <p>
+                                Axes Color
+                            </p>
+                        </div>
+                        <div class='col-lg-5'>
+                            <input id='axes_color' type='color' value='#EFC050'>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class='col-lg-2'>
+                    <h3>
+                        Output
+                    </h3>
+                    <hr>
+                    <div id='placeholder'></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
