@@ -52,4 +52,36 @@ require(['jquery', 'goldentriangle', 'bootstrap'], function ($, GoldenTriangle) 
 
     build();
 
+    /* Pizza ratings. */
+    new GoldenTriangle({
+        placeholder_id: 'rating_margherita',
+        good: 9,
+        fast: 7,
+        cheap: 8,
+        size: 32,
+        show_circle: false,
+        fill_color: 'orange',
+        axes_color: 'blue'
+    }).build();
+    new GoldenTriangle({
+        placeholder_id: 'rating_napoli',
+        good: 5,
+        fast: 9,
+        cheap: 9,
+        size: 32,
+        show_circle: false,
+        fill_color: 'orange',
+        axes_color: 'blue'
+    }).build();
+    new GoldenTriangle({
+        placeholder_id: 'rating_capricciosa',
+        good: 6,
+        fast: 7,
+        cheap: 6,
+        size: 32,
+        show_circle: false,
+        fill_color: 'orange',
+        axes_color: 'blue'
+    }).build();
+
 });
